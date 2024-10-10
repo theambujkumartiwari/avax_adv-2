@@ -1,0 +1,420 @@
+[08-26|01:40:45.334] INFO controller/controller.go:91 loaded config {"contents": {"preferredBlocksPerSecond":2,"gossipInterval":1000000000,"gossipMaxSize":2044723,"gossipProposerDiff":3,"gossipProposerDepth":2,"buildProposerDiff":2,"verifyTimeout":10,"traceEnabled":false,"traceSampleRate":0,"continuousProfilerDir":"","streamingBacklogSize":1024,"mempoolSize":500000,"mempoolPayerSize":500000,"mempoolExemptPayers":null,"mempoolVerifyBalances":true,"trackedPairs":null,"testMode":true,"logLevel":"INFO","parallelism":8,"stateSyncServerDelay":0}}
+[08-26|01:40:45.334] INFO controller/controller.go:100 loaded genesis {"genesis": {"hrp":"token","maxBlockTxs":20000,"maxBlockUnits":1800000,"baseUnits":48,"validityWindow":100000,"minUnitPrice":1,"unitPriceChangeDenominator":48,"windowTargetUnits":1000000000,"minBlockCost":0,"blockCostChangeDenominator":48,"windowTargetBlocks":1000000000,"warpBaseFee":1024,"warpFeePerSigner":128,"customAllocation":[{"address":"token1awct7as0gl8c0wphzzs2ytzu597g6a6xsn7rhzjgynjyj4drsteq2fprh8","balance":18446744073709551615}]}}
+[08-26|01:40:45.335] INFO controller/controller.go:151 running build and gossip in test mode
+[08-26|01:40:45.335] INFO vm/vm.go:288 initialized vm from genesis {"block": "cqG26Ukuh9Yf8rapyoxRmigtM97vExNdGtgWxcSwcTv4tEh69"}
+[08-26|01:40:45.335] INFO vm/vm.go:337 state sync client ready
+[08-26|01:40:45.336] INFO vm/vm.go:343 validity window ready
+[08-26|01:40:45.336] INFO vm/vm.go:349 node is now ready {"synced": false}
+[08-26|01:40:48.389] INFO vm/vm.go:577 parsed block {"id": "2HWoHgmjn8Rd4sQbviUebXYjzyQNzgq4z1jyuLZqhCUrpV1RGp", "height": 1}
+[08-26|01:40:48.389] INFO chain/block.go:464 verify context {"height": 1, "unit price": 1, "block cost": 0}
+[08-26|01:40:48.457] INFO vm/resolutions.go:116 verified block {"blkID": "2HWoHgmjn8Rd4sQbviUebXYjzyQNzgq4z1jyuLZqhCUrpV1RGp", "height": 1, "txs": 3813, "state ready": true}
+[08-26|01:40:48.478] INFO vm/resolutions.go:262 accepted block {"blkID": "2HWoHgmjn8Rd4sQbviUebXYjzyQNzgq4z1jyuLZqhCUrpV1RGp", "height": 1, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:40:48.485] INFO vm/resolutions.go:203 block processed {"blkID": "2HWoHgmjn8Rd4sQbviUebXYjzyQNzgq4z1jyuLZqhCUrpV1RGp", "height": 1}
+[08-26|01:40:48.911] INFO vm/vm.go:577 parsed block {"id": "2a1hsTrzFpGiVhf4XdU4eSr7rNpa4oP8fSG1YvQTHHfhZEtTDN", "height": 2}
+[08-26|01:40:48.911] INFO chain/block.go:464 verify context {"height": 2, "unit price": 1, "block cost": 0}
+[08-26|01:40:48.987] INFO vm/resolutions.go:116 verified block {"blkID": "2a1hsTrzFpGiVhf4XdU4eSr7rNpa4oP8fSG1YvQTHHfhZEtTDN", "height": 2, "txs": 3813, "state ready": true}
+[08-26|01:40:49.010] INFO vm/resolutions.go:262 accepted block {"blkID": "2a1hsTrzFpGiVhf4XdU4eSr7rNpa4oP8fSG1YvQTHHfhZEtTDN", "height": 2, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:40:49.017] INFO vm/resolutions.go:203 block processed {"blkID": "2a1hsTrzFpGiVhf4XdU4eSr7rNpa4oP8fSG1YvQTHHfhZEtTDN", "height": 2}
+[08-26|01:40:49.262] INFO vm/vm.go:577 parsed block {"id": "f56DpJ9LABDjKN1GKxqVv7AkHbRn3cgKZAMPcXNLTtpFHXDof", "height": 3}
+[08-26|01:40:49.263] INFO chain/block.go:464 verify context {"height": 3, "unit price": 1, "block cost": 0}
+[08-26|01:40:49.308] INFO vm/resolutions.go:116 verified block {"blkID": "f56DpJ9LABDjKN1GKxqVv7AkHbRn3cgKZAMPcXNLTtpFHXDof", "height": 3, "txs": 2374, "state ready": true}
+[08-26|01:40:49.314] INFO vm/resolutions.go:262 accepted block {"blkID": "f56DpJ9LABDjKN1GKxqVv7AkHbRn3cgKZAMPcXNLTtpFHXDof", "height": 3, "txs": 2374, "size": 527312, "units": 1120528, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:40:49.317] INFO vm/resolutions.go:203 block processed {"blkID": "f56DpJ9LABDjKN1GKxqVv7AkHbRn3cgKZAMPcXNLTtpFHXDof", "height": 3}
+[08-26|01:46:16.187] INFO vm/vm.go:577 parsed block {"id": "bdC4UmhjF3w9ZZpjbnew87yVCXyPAHmyzPtJyQXrU6iJCRNCP", "height": 4}
+[08-26|01:46:16.623] INFO chain/block.go:464 verify context {"height": 4, "unit price": 1, "block cost": 0}
+[08-26|01:46:21.112] INFO vm/resolutions.go:116 verified block {"blkID": "bdC4UmhjF3w9ZZpjbnew87yVCXyPAHmyzPtJyQXrU6iJCRNCP", "height": 4, "txs": 3813, "state ready": true}
+[08-26|01:46:22.183] INFO vm/resolutions.go:203 block processed {"blkID": "bdC4UmhjF3w9ZZpjbnew87yVCXyPAHmyzPtJyQXrU6iJCRNCP", "height": 4}
+[08-26|01:46:22.139] INFO vm/resolutions.go:262 accepted block {"blkID": "bdC4UmhjF3w9ZZpjbnew87yVCXyPAHmyzPtJyQXrU6iJCRNCP", "height": 4, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:46:22.210] INFO vm/vm.go:577 parsed block {"id": "UDToM4ja6q7aD5TeY1mRdbXbCdjmfZ2kvT8XsSbNmeQeDLsMq", "height": 5}
+[08-26|01:46:22.211] INFO chain/block.go:464 verify context {"height": 5, "unit price": 1, "block cost": 0}
+[08-26|01:46:23.696] INFO vm/resolutions.go:116 verified block {"blkID": "UDToM4ja6q7aD5TeY1mRdbXbCdjmfZ2kvT8XsSbNmeQeDLsMq", "height": 5, "txs": 3813, "state ready": true}
+[08-26|01:46:24.390] INFO vm/resolutions.go:262 accepted block {"blkID": "UDToM4ja6q7aD5TeY1mRdbXbCdjmfZ2kvT8XsSbNmeQeDLsMq", "height": 5, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:46:24.450] INFO vm/resolutions.go:203 block processed {"blkID": "UDToM4ja6q7aD5TeY1mRdbXbCdjmfZ2kvT8XsSbNmeQeDLsMq", "height": 5}
+[08-26|01:46:25.344] INFO vm/vm.go:577 parsed block {"id": "sgoaE27pX7aJbiiEZ89dqPVkpgJADJkXWCRyAUfX9Pg5hBWrK", "height": 6}
+[08-26|01:46:25.361] INFO chain/block.go:464 verify context {"height": 6, "unit price": 1, "block cost": 0}
+[08-26|01:46:29.318] INFO vm/resolutions.go:116 verified block {"blkID": "sgoaE27pX7aJbiiEZ89dqPVkpgJADJkXWCRyAUfX9Pg5hBWrK", "height": 6, "txs": 3813, "state ready": true}
+[08-26|01:46:30.415] INFO vm/resolutions.go:262 accepted block {"blkID": "sgoaE27pX7aJbiiEZ89dqPVkpgJADJkXWCRyAUfX9Pg5hBWrK", "height": 6, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:46:30.462] INFO vm/resolutions.go:203 block processed {"blkID": "sgoaE27pX7aJbiiEZ89dqPVkpgJADJkXWCRyAUfX9Pg5hBWrK", "height": 6}
+[08-26|01:46:30.502] INFO vm/vm.go:577 parsed block {"id": "25vcyukHdTYadgY2bPsMEWxMmUy68RfZnykRqhYg2mHNRCypyp", "height": 7}
+[08-26|01:46:30.503] INFO chain/block.go:464 verify context {"height": 7, "unit price": 1, "block cost": 0}
+[08-26|01:46:31.910] INFO vm/resolutions.go:116 verified block {"blkID": "25vcyukHdTYadgY2bPsMEWxMmUy68RfZnykRqhYg2mHNRCypyp", "height": 7, "txs": 3813, "state ready": true}
+[08-26|01:46:34.583] INFO vm/resolutions.go:262 accepted block {"blkID": "25vcyukHdTYadgY2bPsMEWxMmUy68RfZnykRqhYg2mHNRCypyp", "height": 7, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:46:35.760] INFO vm/resolutions.go:203 block processed {"blkID": "25vcyukHdTYadgY2bPsMEWxMmUy68RfZnykRqhYg2mHNRCypyp", "height": 7}
+[08-26|01:46:36.852] INFO vm/vm.go:577 parsed block {"id": "71Di1SLsWdZCcU2s1bXbFxMbwKhodFYnTs94KtkntaKSJAWjc", "height": 8}
+[08-26|01:46:37.203] INFO chain/block.go:464 verify context {"height": 8, "unit price": 1, "block cost": 0}
+[08-26|01:46:38.608] INFO vm/resolutions.go:116 verified block {"blkID": "71Di1SLsWdZCcU2s1bXbFxMbwKhodFYnTs94KtkntaKSJAWjc", "height": 8, "txs": 3813, "state ready": true}
+[08-26|01:46:40.498] INFO vm/resolutions.go:262 accepted block {"blkID": "71Di1SLsWdZCcU2s1bXbFxMbwKhodFYnTs94KtkntaKSJAWjc", "height": 8, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:46:40.502] INFO vm/resolutions.go:203 block processed {"blkID": "71Di1SLsWdZCcU2s1bXbFxMbwKhodFYnTs94KtkntaKSJAWjc", "height": 8}
+[08-26|01:46:40.519] INFO vm/vm.go:577 parsed block {"id": "2wVrUiiytR1k4sjL97dENpVCGnNAXKSQfAwCnHReGd1zspWP4R", "height": 9}
+[08-26|01:46:40.519] INFO chain/block.go:464 verify context {"height": 9, "unit price": 1, "block cost": 0}
+[08-26|01:46:44.766] INFO vm/resolutions.go:116 verified block {"blkID": "2wVrUiiytR1k4sjL97dENpVCGnNAXKSQfAwCnHReGd1zspWP4R", "height": 9, "txs": 3813, "state ready": true}
+[08-26|01:47:04.133] INFO vm/resolutions.go:262 accepted block {"blkID": "2wVrUiiytR1k4sjL97dENpVCGnNAXKSQfAwCnHReGd1zspWP4R", "height": 9, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:47:09.672] INFO vm/resolutions.go:203 block processed {"blkID": "2wVrUiiytR1k4sjL97dENpVCGnNAXKSQfAwCnHReGd1zspWP4R", "height": 9}
+[08-26|01:47:13.748] INFO vm/vm.go:577 parsed block {"id": "2tHqBueNEDxxFzhD3xdPbS43ei1ST73ToP7DkG92mV344t5Cfb", "height": 10}
+[08-26|01:47:13.749] INFO chain/block.go:464 verify context {"height": 10, "unit price": 1, "block cost": 0}
+[08-26|01:47:13.850] INFO vm/resolutions.go:116 verified block {"blkID": "2tHqBueNEDxxFzhD3xdPbS43ei1ST73ToP7DkG92mV344t5Cfb", "height": 10, "txs": 3813, "state ready": true}
+[08-26|01:47:13.870] INFO vm/resolutions.go:262 accepted block {"blkID": "2tHqBueNEDxxFzhD3xdPbS43ei1ST73ToP7DkG92mV344t5Cfb", "height": 10, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:47:13.876] INFO vm/resolutions.go:203 block processed {"blkID": "2tHqBueNEDxxFzhD3xdPbS43ei1ST73ToP7DkG92mV344t5Cfb", "height": 10}
+[08-26|01:47:13.876] INFO vm/vm.go:577 parsed block {"id": "2AH7jDvyBv7pzsMPN5TjbC6wex78tEfFpqBV5Q2snQjGxLT1gk", "height": 11}
+[08-26|01:47:13.876] INFO chain/block.go:464 verify context {"height": 11, "unit price": 1, "block cost": 0}
+[08-26|01:47:14.277] INFO vm/resolutions.go:116 verified block {"blkID": "2AH7jDvyBv7pzsMPN5TjbC6wex78tEfFpqBV5Q2snQjGxLT1gk", "height": 11, "txs": 3813, "state ready": true}
+[08-26|01:47:14.568] INFO vm/resolutions.go:262 accepted block {"blkID": "2AH7jDvyBv7pzsMPN5TjbC6wex78tEfFpqBV5Q2snQjGxLT1gk", "height": 11, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:47:14.578] INFO vm/vm.go:577 parsed block {"id": "GBKT8bCq72kyS8CyfQ7Dr4tbbWXeUyA6i3TfxJuMsQxL61ZUv", "height": 12}
+[08-26|01:47:14.579] INFO chain/block.go:464 verify context {"height": 12, "unit price": 1, "block cost": 0}
+[08-26|01:47:14.583] INFO vm/resolutions.go:203 block processed {"blkID": "2AH7jDvyBv7pzsMPN5TjbC6wex78tEfFpqBV5Q2snQjGxLT1gk", "height": 11}
+[08-26|01:47:14.828] INFO vm/resolutions.go:116 verified block {"blkID": "GBKT8bCq72kyS8CyfQ7Dr4tbbWXeUyA6i3TfxJuMsQxL61ZUv", "height": 12, "txs": 3813, "state ready": true}
+[08-26|01:47:14.895] INFO vm/resolutions.go:262 accepted block {"blkID": "GBKT8bCq72kyS8CyfQ7Dr4tbbWXeUyA6i3TfxJuMsQxL61ZUv", "height": 12, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:47:14.913] INFO vm/resolutions.go:203 block processed {"blkID": "GBKT8bCq72kyS8CyfQ7Dr4tbbWXeUyA6i3TfxJuMsQxL61ZUv", "height": 12}
+[08-26|01:47:14.919] INFO vm/vm.go:577 parsed block {"id": "a7vsn4dcJHMQej2r6WFZzt9S2miB64LCPoqvd9ZnjnoEf4msX", "height": 13}
+[08-26|01:47:14.920] INFO chain/block.go:464 verify context {"height": 13, "unit price": 1, "block cost": 0}
+[08-26|01:47:15.392] INFO vm/resolutions.go:116 verified block {"blkID": "a7vsn4dcJHMQej2r6WFZzt9S2miB64LCPoqvd9ZnjnoEf4msX", "height": 13, "txs": 3813, "state ready": true}
+[08-26|01:47:15.478] INFO vm/resolutions.go:262 accepted block {"blkID": "a7vsn4dcJHMQej2r6WFZzt9S2miB64LCPoqvd9ZnjnoEf4msX", "height": 13, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:47:15.552] INFO vm/resolutions.go:203 block processed {"blkID": "a7vsn4dcJHMQej2r6WFZzt9S2miB64LCPoqvd9ZnjnoEf4msX", "height": 13}
+[08-26|01:47:15.587] INFO vm/vm.go:577 parsed block {"id": "22ARyEF6maEFYDKUuZXqoqhPmUJbE3jthG4tgRNdyg9eGuQhAt", "height": 14}
+[08-26|01:47:15.588] INFO chain/block.go:464 verify context {"height": 14, "unit price": 1, "block cost": 0}
+[08-26|01:47:16.135] INFO vm/resolutions.go:116 verified block {"blkID": "22ARyEF6maEFYDKUuZXqoqhPmUJbE3jthG4tgRNdyg9eGuQhAt", "height": 14, "txs": 3813, "state ready": true}
+[08-26|01:47:16.269] INFO vm/resolutions.go:262 accepted block {"blkID": "22ARyEF6maEFYDKUuZXqoqhPmUJbE3jthG4tgRNdyg9eGuQhAt", "height": 14, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:47:16.284] INFO vm/resolutions.go:203 block processed {"blkID": "22ARyEF6maEFYDKUuZXqoqhPmUJbE3jthG4tgRNdyg9eGuQhAt", "height": 14}
+[08-26|01:47:16.310] INFO vm/vm.go:577 parsed block {"id": "2rY8ZwxqrFfr7Xhhi8QW8oJNe3HkPT3XKpMUefAbpMZAQyJ4bb", "height": 15}
+[08-26|01:47:16.310] INFO chain/block.go:464 verify context {"height": 15, "unit price": 1, "block cost": 0}
+[08-26|01:47:16.940] INFO vm/resolutions.go:116 verified block {"blkID": "2rY8ZwxqrFfr7Xhhi8QW8oJNe3HkPT3XKpMUefAbpMZAQyJ4bb", "height": 15, "txs": 3813, "state ready": true}
+[08-26|01:47:17.018] INFO vm/resolutions.go:262 accepted block {"blkID": "2rY8ZwxqrFfr7Xhhi8QW8oJNe3HkPT3XKpMUefAbpMZAQyJ4bb", "height": 15, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:47:17.049] INFO vm/vm.go:577 parsed block {"id": "2FUfMw7SeFM5nUrdND2kYFHaKwyvQayMciKpsDQBaKYHgPrB7B", "height": 16}
+[08-26|01:47:17.050] INFO chain/block.go:464 verify context {"height": 16, "unit price": 1, "block cost": 0}
+[08-26|01:47:17.097] INFO vm/resolutions.go:203 block processed {"blkID": "2rY8ZwxqrFfr7Xhhi8QW8oJNe3HkPT3XKpMUefAbpMZAQyJ4bb", "height": 15}
+[08-26|01:47:17.520] INFO vm/resolutions.go:116 verified block {"blkID": "2FUfMw7SeFM5nUrdND2kYFHaKwyvQayMciKpsDQBaKYHgPrB7B", "height": 16, "txs": 3813, "state ready": true}
+[08-26|01:47:17.731] INFO vm/resolutions.go:262 accepted block {"blkID": "2FUfMw7SeFM5nUrdND2kYFHaKwyvQayMciKpsDQBaKYHgPrB7B", "height": 16, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:47:17.742] INFO vm/vm.go:577 parsed block {"id": "2vpsJB2TpVFDi6iKVRw6JuLV7sgzikgE8w8LKmdAEQEHJh2s4x", "height": 17}
+[08-26|01:47:17.743] INFO chain/block.go:464 verify context {"height": 17, "unit price": 1, "block cost": 0}
+[08-26|01:47:17.746] INFO vm/resolutions.go:203 block processed {"blkID": "2FUfMw7SeFM5nUrdND2kYFHaKwyvQayMciKpsDQBaKYHgPrB7B", "height": 16}
+[08-26|01:47:17.898] INFO vm/resolutions.go:116 verified block {"blkID": "2vpsJB2TpVFDi6iKVRw6JuLV7sgzikgE8w8LKmdAEQEHJh2s4x", "height": 17, "txs": 3813, "state ready": true}
+[08-26|01:47:18.058] INFO vm/resolutions.go:262 accepted block {"blkID": "2vpsJB2TpVFDi6iKVRw6JuLV7sgzikgE8w8LKmdAEQEHJh2s4x", "height": 17, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:47:18.153] INFO vm/vm.go:577 parsed block {"id": "25JxZsjipsePYV6UdnjDHE3fZUmmcmPCSiamu8szTSw7ArV3jB", "height": 18}
+[08-26|01:47:18.154] INFO chain/block.go:464 verify context {"height": 18, "unit price": 1, "block cost": 0}
+[08-26|01:47:18.156] INFO vm/resolutions.go:203 block processed {"blkID": "2vpsJB2TpVFDi6iKVRw6JuLV7sgzikgE8w8LKmdAEQEHJh2s4x", "height": 17}
+[08-26|01:47:18.605] INFO vm/resolutions.go:116 verified block {"blkID": "25JxZsjipsePYV6UdnjDHE3fZUmmcmPCSiamu8szTSw7ArV3jB", "height": 18, "txs": 3813, "state ready": true}
+[08-26|01:47:18.785] INFO vm/resolutions.go:262 accepted block {"blkID": "25JxZsjipsePYV6UdnjDHE3fZUmmcmPCSiamu8szTSw7ArV3jB", "height": 18, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:47:18.818] INFO vm/resolutions.go:203 block processed {"blkID": "25JxZsjipsePYV6UdnjDHE3fZUmmcmPCSiamu8szTSw7ArV3jB", "height": 18}
+[08-26|01:47:19.174] INFO vm/vm.go:577 parsed block {"id": "3kYAMycM4uFWq8M6ZHHMHNjcFV6nRuJCytyem5mkcPXNPYyiX", "height": 19}
+[08-26|01:47:19.175] INFO chain/block.go:464 verify context {"height": 19, "unit price": 1, "block cost": 0}
+[08-26|01:47:19.727] INFO vm/resolutions.go:116 verified block {"blkID": "3kYAMycM4uFWq8M6ZHHMHNjcFV6nRuJCytyem5mkcPXNPYyiX", "height": 19, "txs": 3813, "state ready": true}
+[08-26|01:47:19.803] INFO vm/resolutions.go:262 accepted block {"blkID": "3kYAMycM4uFWq8M6ZHHMHNjcFV6nRuJCytyem5mkcPXNPYyiX", "height": 19, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:47:19.841] INFO vm/vm.go:577 parsed block {"id": "22uBSmapCP6DiZ61U6251FDHJPsTviZbxiUdaL1xk9JHd8MBrK", "height": 20}
+[08-26|01:47:19.845] INFO chain/block.go:464 verify context {"height": 20, "unit price": 1, "block cost": 0}
+[08-26|01:47:19.932] INFO vm/resolutions.go:203 block processed {"blkID": "3kYAMycM4uFWq8M6ZHHMHNjcFV6nRuJCytyem5mkcPXNPYyiX", "height": 19}
+[08-26|01:47:21.206] INFO vm/resolutions.go:116 verified block {"blkID": "22uBSmapCP6DiZ61U6251FDHJPsTviZbxiUdaL1xk9JHd8MBrK", "height": 20, "txs": 3813, "state ready": true}
+[08-26|01:47:22.094] INFO vm/resolutions.go:262 accepted block {"blkID": "22uBSmapCP6DiZ61U6251FDHJPsTviZbxiUdaL1xk9JHd8MBrK", "height": 20, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:47:22.123] INFO vm/resolutions.go:203 block processed {"blkID": "22uBSmapCP6DiZ61U6251FDHJPsTviZbxiUdaL1xk9JHd8MBrK", "height": 20}
+[08-26|01:47:22.168] INFO vm/vm.go:577 parsed block {"id": "2pv1vws2ApPynJpTe8jHhkCXZ7r5xQ9uafUUBGAea4fWBnKAhW", "height": 21}
+[08-26|01:47:22.168] INFO chain/block.go:464 verify context {"height": 21, "unit price": 1, "block cost": 0}
+[08-26|01:47:22.750] INFO vm/resolutions.go:116 verified block {"blkID": "2pv1vws2ApPynJpTe8jHhkCXZ7r5xQ9uafUUBGAea4fWBnKAhW", "height": 21, "txs": 3813, "state ready": true}
+[08-26|01:47:23.099] INFO vm/resolutions.go:262 accepted block {"blkID": "2pv1vws2ApPynJpTe8jHhkCXZ7r5xQ9uafUUBGAea4fWBnKAhW", "height": 21, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:47:23.150] INFO vm/resolutions.go:203 block processed {"blkID": "2pv1vws2ApPynJpTe8jHhkCXZ7r5xQ9uafUUBGAea4fWBnKAhW", "height": 21}
+[08-26|01:47:23.155] INFO vm/vm.go:577 parsed block {"id": "7oC3JSTu7UQPgqebFTfar1t7FgnMwKZEpwtjFD7uzJxidQp9a", "height": 22}
+[08-26|01:47:23.156] INFO chain/block.go:464 verify context {"height": 22, "unit price": 1, "block cost": 0}
+[08-26|01:47:24.041] INFO vm/resolutions.go:116 verified block {"blkID": "7oC3JSTu7UQPgqebFTfar1t7FgnMwKZEpwtjFD7uzJxidQp9a", "height": 22, "txs": 3813, "state ready": true}
+[08-26|01:47:24.135] INFO vm/resolutions.go:262 accepted block {"blkID": "7oC3JSTu7UQPgqebFTfar1t7FgnMwKZEpwtjFD7uzJxidQp9a", "height": 22, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:47:24.158] INFO vm/vm.go:577 parsed block {"id": "57Abg8FiqAeusomedkBU7zHUgNKxQMEGHGUzg1UH7gyDSNC51", "height": 23}
+[08-26|01:47:24.159] INFO chain/block.go:464 verify context {"height": 23, "unit price": 1, "block cost": 0}
+[08-26|01:47:24.244] INFO vm/resolutions.go:203 block processed {"blkID": "7oC3JSTu7UQPgqebFTfar1t7FgnMwKZEpwtjFD7uzJxidQp9a", "height": 22}
+[08-26|01:47:24.852] INFO vm/resolutions.go:116 verified block {"blkID": "57Abg8FiqAeusomedkBU7zHUgNKxQMEGHGUzg1UH7gyDSNC51", "height": 23, "txs": 3813, "state ready": true}
+[08-26|01:47:24.922] INFO vm/resolutions.go:262 accepted block {"blkID": "57Abg8FiqAeusomedkBU7zHUgNKxQMEGHGUzg1UH7gyDSNC51", "height": 23, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:47:24.950] INFO vm/vm.go:577 parsed block {"id": "a5ri2NvbanUchx6xk4Rj8JYkWfAj6x7pLM1vjxWTFPGC6WUCs", "height": 24}
+[08-26|01:47:24.951] INFO chain/block.go:464 verify context {"height": 24, "unit price": 1, "block cost": 0}
+[08-26|01:47:25.009] INFO vm/resolutions.go:203 block processed {"blkID": "57Abg8FiqAeusomedkBU7zHUgNKxQMEGHGUzg1UH7gyDSNC51", "height": 23}
+[08-26|01:47:25.659] INFO vm/resolutions.go:116 verified block {"blkID": "a5ri2NvbanUchx6xk4Rj8JYkWfAj6x7pLM1vjxWTFPGC6WUCs", "height": 24, "txs": 3813, "state ready": true}
+[08-26|01:47:25.788] INFO vm/resolutions.go:262 accepted block {"blkID": "a5ri2NvbanUchx6xk4Rj8JYkWfAj6x7pLM1vjxWTFPGC6WUCs", "height": 24, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:47:25.837] INFO vm/vm.go:577 parsed block {"id": "2ixVcoVNADZyxRnQtRc4Z2GedrZts4asdNWK23pzXJUKhLnV7o", "height": 25}
+[08-26|01:47:25.838] INFO vm/resolutions.go:203 block processed {"blkID": "a5ri2NvbanUchx6xk4Rj8JYkWfAj6x7pLM1vjxWTFPGC6WUCs", "height": 24}
+[08-26|01:47:25.838] INFO chain/block.go:464 verify context {"height": 25, "unit price": 1, "block cost": 0}
+[08-26|01:47:26.230] INFO vm/resolutions.go:116 verified block {"blkID": "2ixVcoVNADZyxRnQtRc4Z2GedrZts4asdNWK23pzXJUKhLnV7o", "height": 25, "txs": 3813, "state ready": true}
+[08-26|01:47:26.359] INFO vm/resolutions.go:262 accepted block {"blkID": "2ixVcoVNADZyxRnQtRc4Z2GedrZts4asdNWK23pzXJUKhLnV7o", "height": 25, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:47:26.371] INFO vm/vm.go:577 parsed block {"id": "2kLtqj5gTa5jN8zq6HBSjuiVgeA2Wqmd2fG83pYmdoFdH1qeiN", "height": 26}
+[08-26|01:47:26.371] INFO chain/block.go:464 verify context {"height": 26, "unit price": 1, "block cost": 0}
+[08-26|01:47:26.372] INFO vm/resolutions.go:203 block processed {"blkID": "2ixVcoVNADZyxRnQtRc4Z2GedrZts4asdNWK23pzXJUKhLnV7o", "height": 25}
+[08-26|01:47:26.605] INFO vm/resolutions.go:116 verified block {"blkID": "2kLtqj5gTa5jN8zq6HBSjuiVgeA2Wqmd2fG83pYmdoFdH1qeiN", "height": 26, "txs": 3813, "state ready": true}
+[08-26|01:47:26.758] INFO vm/resolutions.go:262 accepted block {"blkID": "2kLtqj5gTa5jN8zq6HBSjuiVgeA2Wqmd2fG83pYmdoFdH1qeiN", "height": 26, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:47:26.825] INFO vm/resolutions.go:203 block processed {"blkID": "2kLtqj5gTa5jN8zq6HBSjuiVgeA2Wqmd2fG83pYmdoFdH1qeiN", "height": 26}
+[08-26|01:47:26.835] INFO vm/vm.go:577 parsed block {"id": "PC3SfGXG3vXiMqN5Dz6nnXJuzdMJz1JH79z1iSdwZzQXqnpbj", "height": 27}
+[08-26|01:47:26.924] INFO chain/block.go:464 verify context {"height": 27, "unit price": 1, "block cost": 0}
+[08-26|01:47:27.501] INFO vm/resolutions.go:116 verified block {"blkID": "PC3SfGXG3vXiMqN5Dz6nnXJuzdMJz1JH79z1iSdwZzQXqnpbj", "height": 27, "txs": 3813, "state ready": true}
+[08-26|01:47:27.624] INFO vm/resolutions.go:262 accepted block {"blkID": "PC3SfGXG3vXiMqN5Dz6nnXJuzdMJz1JH79z1iSdwZzQXqnpbj", "height": 27, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:47:27.668] INFO vm/resolutions.go:203 block processed {"blkID": "PC3SfGXG3vXiMqN5Dz6nnXJuzdMJz1JH79z1iSdwZzQXqnpbj", "height": 27}
+[08-26|01:47:27.687] INFO vm/vm.go:577 parsed block {"id": "m8PqxpCvP5UVLEp2RfwwdAvwS2QiTk1FNEYYSi3BSU4oxPfic", "height": 28}
+[08-26|01:47:27.688] INFO chain/block.go:464 verify context {"height": 28, "unit price": 1, "block cost": 0}
+[08-26|01:47:28.147] INFO vm/resolutions.go:116 verified block {"blkID": "m8PqxpCvP5UVLEp2RfwwdAvwS2QiTk1FNEYYSi3BSU4oxPfic", "height": 28, "txs": 3813, "state ready": true}
+[08-26|01:47:28.209] INFO vm/resolutions.go:262 accepted block {"blkID": "m8PqxpCvP5UVLEp2RfwwdAvwS2QiTk1FNEYYSi3BSU4oxPfic", "height": 28, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:47:28.241] INFO vm/resolutions.go:203 block processed {"blkID": "m8PqxpCvP5UVLEp2RfwwdAvwS2QiTk1FNEYYSi3BSU4oxPfic", "height": 28}
+[08-26|01:47:28.251] INFO vm/vm.go:577 parsed block {"id": "2vPKmXz3qe7YxPhLp2BtFkk426Q7gFhkv1JbLj3ioQD5h5Bs4g", "height": 29}
+[08-26|01:47:28.252] INFO chain/block.go:464 verify context {"height": 29, "unit price": 1, "block cost": 0}
+[08-26|01:47:28.833] INFO vm/resolutions.go:116 verified block {"blkID": "2vPKmXz3qe7YxPhLp2BtFkk426Q7gFhkv1JbLj3ioQD5h5Bs4g", "height": 29, "txs": 3813, "state ready": true}
+[08-26|01:47:28.970] INFO vm/resolutions.go:262 accepted block {"blkID": "2vPKmXz3qe7YxPhLp2BtFkk426Q7gFhkv1JbLj3ioQD5h5Bs4g", "height": 29, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:47:29.008] INFO vm/resolutions.go:203 block processed {"blkID": "2vPKmXz3qe7YxPhLp2BtFkk426Q7gFhkv1JbLj3ioQD5h5Bs4g", "height": 29}
+[08-26|01:47:29.031] INFO vm/vm.go:577 parsed block {"id": "2ikFPnvYnH5j58t1G8ZqgrEyvebajCT5jh1Nos5vDNvvppsK36", "height": 30}
+[08-26|01:47:29.032] INFO chain/block.go:464 verify context {"height": 30, "unit price": 1, "block cost": 0}
+[08-26|01:47:29.653] INFO vm/resolutions.go:116 verified block {"blkID": "2ikFPnvYnH5j58t1G8ZqgrEyvebajCT5jh1Nos5vDNvvppsK36", "height": 30, "txs": 3813, "state ready": true}
+[08-26|01:47:29.832] INFO vm/resolutions.go:262 accepted block {"blkID": "2ikFPnvYnH5j58t1G8ZqgrEyvebajCT5jh1Nos5vDNvvppsK36", "height": 30, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:47:29.901] INFO vm/vm.go:577 parsed block {"id": "DXfxYumtR1sAL3YsbFkSgwAxkSzFTkV73KQbcUTwa8po1Wdq4", "height": 31}
+[08-26|01:47:29.902] INFO chain/block.go:464 verify context {"height": 31, "unit price": 1, "block cost": 0}
+[08-26|01:47:29.939] INFO vm/resolutions.go:203 block processed {"blkID": "2ikFPnvYnH5j58t1G8ZqgrEyvebajCT5jh1Nos5vDNvvppsK36", "height": 30}
+[08-26|01:47:30.371] INFO vm/resolutions.go:116 verified block {"blkID": "DXfxYumtR1sAL3YsbFkSgwAxkSzFTkV73KQbcUTwa8po1Wdq4", "height": 31, "txs": 3813, "state ready": true}
+[08-26|01:47:30.430] INFO vm/resolutions.go:262 accepted block {"blkID": "DXfxYumtR1sAL3YsbFkSgwAxkSzFTkV73KQbcUTwa8po1Wdq4", "height": 31, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:47:30.437] INFO vm/resolutions.go:203 block processed {"blkID": "DXfxYumtR1sAL3YsbFkSgwAxkSzFTkV73KQbcUTwa8po1Wdq4", "height": 31}
+[08-26|01:47:30.448] INFO vm/vm.go:577 parsed block {"id": "tnHvQX2YT1BZU7YHvrDhkVopmN8ip67H7iqpA6ncabjQgdN9A", "height": 32}
+[08-26|01:47:30.449] INFO chain/block.go:464 verify context {"height": 32, "unit price": 1, "block cost": 0}
+[08-26|01:47:30.751] INFO vm/resolutions.go:116 verified block {"blkID": "tnHvQX2YT1BZU7YHvrDhkVopmN8ip67H7iqpA6ncabjQgdN9A", "height": 32, "txs": 3813, "state ready": true}
+[08-26|01:47:30.787] INFO vm/resolutions.go:262 accepted block {"blkID": "tnHvQX2YT1BZU7YHvrDhkVopmN8ip67H7iqpA6ncabjQgdN9A", "height": 32, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:47:30.804] INFO vm/vm.go:577 parsed block {"id": "22A8yCvegNsPBPwTrjavzwoVexFya22f9F5YCsjL7c7RNUULtn", "height": 33}
+[08-26|01:47:30.805] INFO chain/block.go:464 verify context {"height": 33, "unit price": 1, "block cost": 0}
+[08-26|01:47:30.810] INFO vm/resolutions.go:203 block processed {"blkID": "tnHvQX2YT1BZU7YHvrDhkVopmN8ip67H7iqpA6ncabjQgdN9A", "height": 32}
+[08-26|01:47:31.096] INFO vm/resolutions.go:116 verified block {"blkID": "22A8yCvegNsPBPwTrjavzwoVexFya22f9F5YCsjL7c7RNUULtn", "height": 33, "txs": 3813, "state ready": true}
+[08-26|01:47:31.115] INFO vm/resolutions.go:262 accepted block {"blkID": "22A8yCvegNsPBPwTrjavzwoVexFya22f9F5YCsjL7c7RNUULtn", "height": 33, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:47:31.120] INFO vm/vm.go:577 parsed block {"id": "6DFLaERDNTBVjBRJTRD46XH9n62j9Nu4MicRjMQZS2LxRffRL", "height": 34}
+[08-26|01:47:31.120] INFO chain/block.go:464 verify context {"height": 34, "unit price": 1, "block cost": 0}
+[08-26|01:47:31.130] INFO vm/resolutions.go:203 block processed {"blkID": "22A8yCvegNsPBPwTrjavzwoVexFya22f9F5YCsjL7c7RNUULtn", "height": 33}
+[08-26|01:47:31.263] INFO vm/resolutions.go:116 verified block {"blkID": "6DFLaERDNTBVjBRJTRD46XH9n62j9Nu4MicRjMQZS2LxRffRL", "height": 34, "txs": 3813, "state ready": true}
+[08-26|01:47:31.342] INFO vm/resolutions.go:262 accepted block {"blkID": "6DFLaERDNTBVjBRJTRD46XH9n62j9Nu4MicRjMQZS2LxRffRL", "height": 34, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:47:31.411] INFO vm/resolutions.go:203 block processed {"blkID": "6DFLaERDNTBVjBRJTRD46XH9n62j9Nu4MicRjMQZS2LxRffRL", "height": 34}
+[08-26|01:47:31.461] INFO vm/vm.go:577 parsed block {"id": "2BEP3mTBaXs77ktbZ4ZekK1rNLBdVu1CWR98ayksiJNfJryRqu", "height": 35}
+[08-26|01:47:31.462] INFO chain/block.go:464 verify context {"height": 35, "unit price": 1, "block cost": 0}
+[08-26|01:47:32.722] INFO vm/resolutions.go:116 verified block {"blkID": "2BEP3mTBaXs77ktbZ4ZekK1rNLBdVu1CWR98ayksiJNfJryRqu", "height": 35, "txs": 3813, "state ready": true}
+[08-26|01:47:32.857] INFO vm/resolutions.go:262 accepted block {"blkID": "2BEP3mTBaXs77ktbZ4ZekK1rNLBdVu1CWR98ayksiJNfJryRqu", "height": 35, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:47:33.061] INFO vm/resolutions.go:203 block processed {"blkID": "2BEP3mTBaXs77ktbZ4ZekK1rNLBdVu1CWR98ayksiJNfJryRqu", "height": 35}
+[08-26|01:47:33.110] INFO vm/vm.go:577 parsed block {"id": "QNKCrTFJ8T3FvMmmuUovvdYePSDbi5yJAexsyJ1qqgVQxRqfs", "height": 36}
+[08-26|01:47:33.111] INFO chain/block.go:464 verify context {"height": 36, "unit price": 1, "block cost": 0}
+[08-26|01:47:33.754] INFO vm/resolutions.go:116 verified block {"blkID": "QNKCrTFJ8T3FvMmmuUovvdYePSDbi5yJAexsyJ1qqgVQxRqfs", "height": 36, "txs": 3813, "state ready": true}
+[08-26|01:47:33.953] INFO vm/resolutions.go:262 accepted block {"blkID": "QNKCrTFJ8T3FvMmmuUovvdYePSDbi5yJAexsyJ1qqgVQxRqfs", "height": 36, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:47:33.963] INFO vm/resolutions.go:203 block processed {"blkID": "QNKCrTFJ8T3FvMmmuUovvdYePSDbi5yJAexsyJ1qqgVQxRqfs", "height": 36}
+[08-26|01:47:34.058] INFO vm/vm.go:577 parsed block {"id": "bGuMtnadUqDHnUGnXp3KartsZuKnndNcZ53nJCoBPoqcBdJS2", "height": 37}
+[08-26|01:47:34.058] INFO chain/block.go:464 verify context {"height": 37, "unit price": 1, "block cost": 0}
+[08-26|01:47:34.508] INFO vm/resolutions.go:116 verified block {"blkID": "bGuMtnadUqDHnUGnXp3KartsZuKnndNcZ53nJCoBPoqcBdJS2", "height": 37, "txs": 3813, "state ready": true}
+[08-26|01:47:34.576] INFO vm/resolutions.go:262 accepted block {"blkID": "bGuMtnadUqDHnUGnXp3KartsZuKnndNcZ53nJCoBPoqcBdJS2", "height": 37, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:47:34.592] INFO vm/vm.go:577 parsed block {"id": "2CrqjG6a4kvRoZLyqTeEznFppJBeXFfNfHofkbo7ifKsfHjyjb", "height": 38}
+[08-26|01:47:34.593] INFO vm/resolutions.go:203 block processed {"blkID": "bGuMtnadUqDHnUGnXp3KartsZuKnndNcZ53nJCoBPoqcBdJS2", "height": 37}
+[08-26|01:47:34.593] INFO chain/block.go:464 verify context {"height": 38, "unit price": 1, "block cost": 0}
+[08-26|01:47:34.872] INFO vm/resolutions.go:116 verified block {"blkID": "2CrqjG6a4kvRoZLyqTeEznFppJBeXFfNfHofkbo7ifKsfHjyjb", "height": 38, "txs": 3813, "state ready": true}
+[08-26|01:47:34.917] INFO vm/resolutions.go:262 accepted block {"blkID": "2CrqjG6a4kvRoZLyqTeEznFppJBeXFfNfHofkbo7ifKsfHjyjb", "height": 38, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:47:34.936] INFO vm/vm.go:577 parsed block {"id": "9Gqow2JXa8KJDz41j7kp1fLmHXSkpVfmv51auX54kNJxYNcwi", "height": 39}
+[08-26|01:47:34.938] INFO chain/block.go:464 verify context {"height": 39, "unit price": 1, "block cost": 0}
+[08-26|01:47:35.090] INFO vm/resolutions.go:203 block processed {"blkID": "2CrqjG6a4kvRoZLyqTeEznFppJBeXFfNfHofkbo7ifKsfHjyjb", "height": 38}
+[08-26|01:47:35.651] INFO vm/resolutions.go:116 verified block {"blkID": "9Gqow2JXa8KJDz41j7kp1fLmHXSkpVfmv51auX54kNJxYNcwi", "height": 39, "txs": 3813, "state ready": true}
+[08-26|01:47:36.059] INFO vm/resolutions.go:262 accepted block {"blkID": "9Gqow2JXa8KJDz41j7kp1fLmHXSkpVfmv51auX54kNJxYNcwi", "height": 39, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:47:36.076] INFO vm/resolutions.go:203 block processed {"blkID": "9Gqow2JXa8KJDz41j7kp1fLmHXSkpVfmv51auX54kNJxYNcwi", "height": 39}
+[08-26|01:47:36.087] INFO vm/vm.go:577 parsed block {"id": "F7qo9vvuM29e2Ye2swrxcP1g5Us6okSdTsL3f3yZWVZ4VmuFg", "height": 40}
+[08-26|01:47:36.088] INFO chain/block.go:464 verify context {"height": 40, "unit price": 1, "block cost": 0}
+[08-26|01:47:38.025] INFO vm/resolutions.go:116 verified block {"blkID": "F7qo9vvuM29e2Ye2swrxcP1g5Us6okSdTsL3f3yZWVZ4VmuFg", "height": 40, "txs": 3813, "state ready": true}
+[08-26|01:47:39.415] INFO vm/resolutions.go:262 accepted block {"blkID": "F7qo9vvuM29e2Ye2swrxcP1g5Us6okSdTsL3f3yZWVZ4VmuFg", "height": 40, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:47:39.489] INFO vm/resolutions.go:203 block processed {"blkID": "F7qo9vvuM29e2Ye2swrxcP1g5Us6okSdTsL3f3yZWVZ4VmuFg", "height": 40}
+[08-26|01:47:39.498] INFO vm/vm.go:577 parsed block {"id": "qDrkM1iLUCX7yFEHzn8xCRcuWqSZzxmkYZKRQ6b64CW4zhqiM", "height": 41}
+[08-26|01:47:39.498] INFO chain/block.go:464 verify context {"height": 41, "unit price": 1, "block cost": 0}
+[08-26|01:47:40.075] INFO vm/resolutions.go:116 verified block {"blkID": "qDrkM1iLUCX7yFEHzn8xCRcuWqSZzxmkYZKRQ6b64CW4zhqiM", "height": 41, "txs": 3813, "state ready": true}
+[08-26|01:47:40.256] INFO vm/resolutions.go:262 accepted block {"blkID": "qDrkM1iLUCX7yFEHzn8xCRcuWqSZzxmkYZKRQ6b64CW4zhqiM", "height": 41, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-26|01:47:40.272] INFO vm/resolutions.go:203 block processed {"blkID": "qDrkM1iLUCX7yFEHzn8xCRcuWqSZzxmkYZKRQ6b64CW4zhqiM", "height": 41}
+[08-26|01:47:40.275] INFO vm/vm.go:577 parsed block {"id": "dT5F7UrTADkWHYLbTKm5CwBaQhvr7KsgrFarTjYzHUvRxcBVi", "height": 42}
+[08-26|01:47:40.275] INFO chain/block.go:464 verify context {"height": 42, "unit price": 1, "block cost": 0}
+[08-26|01:47:40.616] INFO vm/resolutions.go:116 verified block {"blkID": "dT5F7UrTADkWHYLbTKm5CwBaQhvr7KsgrFarTjYzHUvRxcBVi", "height": 42, "txs": 3813, "state ready": true}
+[08-27|18:06:58.411] INFO vm/warp_manager.go:70 starting warp manager
+[08-27|18:06:58.411] INFO controller/controller.go:91 loaded config {"contents": {"preferredBlocksPerSecond":2,"gossipInterval":1000000000,"gossipMaxSize":2044723,"gossipProposerDiff":3,"gossipProposerDepth":2,"buildProposerDiff":2,"verifyTimeout":10,"traceEnabled":false,"traceSampleRate":0,"continuousProfilerDir":"","streamingBacklogSize":1024,"mempoolSize":500000,"mempoolPayerSize":500000,"mempoolExemptPayers":null,"mempoolVerifyBalances":true,"trackedPairs":null,"testMode":true,"logLevel":"INFO","parallelism":8,"stateSyncServerDelay":0}}
+[08-27|18:06:58.412] INFO controller/controller.go:100 loaded genesis {"genesis": {"hrp":"token","maxBlockTxs":20000,"maxBlockUnits":1800000,"baseUnits":48,"validityWindow":100000,"minUnitPrice":1,"unitPriceChangeDenominator":48,"windowTargetUnits":1000000000,"minBlockCost":0,"blockCostChangeDenominator":48,"windowTargetBlocks":1000000000,"warpBaseFee":1024,"warpFeePerSigner":128,"customAllocation":[{"address":"token1y4zxfuyx4qqx59jxavkh4nlk7gme90wa6xtyp4dw6jg0u55rn9psz6j4pt","balance":18446744073709551615}]}}
+[08-27|18:06:58.413] INFO controller/controller.go:151 running build and gossip in test mode
+[08-27|18:06:58.413] INFO vm/vm.go:288 initialized vm from genesis {"block": "SQ9peR9X65o3pV12V9HK9saAeRoxxHjLPsGmtTBurgiHTYsZG"}
+[08-27|18:06:58.414] INFO vm/vm.go:337 state sync client ready
+[08-27|18:06:58.414] INFO vm/vm.go:343 validity window ready
+[08-27|18:06:58.414] INFO vm/vm.go:349 node is now ready {"synced": false}
+[08-27|18:07:01.121] INFO vm/vm.go:577 parsed block {"id": "2gjbfTFhYoufBzjkH7PaepXXWVHDi6sxZPh1gn6VJ9uLSDFsGj", "height": 1}
+[08-27|18:07:01.121] INFO chain/block.go:464 verify context {"height": 1, "unit price": 1, "block cost": 0}
+[08-27|18:07:01.188] INFO vm/resolutions.go:116 verified block {"blkID": "2gjbfTFhYoufBzjkH7PaepXXWVHDi6sxZPh1gn6VJ9uLSDFsGj", "height": 1, "txs": 3813, "state ready": true}
+[08-27|18:07:01.212] INFO vm/resolutions.go:262 accepted block {"blkID": "2gjbfTFhYoufBzjkH7PaepXXWVHDi6sxZPh1gn6VJ9uLSDFsGj", "height": 1, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:07:01.216] INFO vm/resolutions.go:203 block processed {"blkID": "2gjbfTFhYoufBzjkH7PaepXXWVHDi6sxZPh1gn6VJ9uLSDFsGj", "height": 1}
+[08-27|18:07:01.601] INFO vm/vm.go:577 parsed block {"id": "2wjefo3Nfvk1zb7GDPLLXXwtpLhPhVm5fghCWdjSvM2PiQqcrn", "height": 2}
+[08-27|18:07:01.602] INFO chain/block.go:464 verify context {"height": 2, "unit price": 1, "block cost": 0}
+[08-27|18:07:01.674] INFO vm/resolutions.go:116 verified block {"blkID": "2wjefo3Nfvk1zb7GDPLLXXwtpLhPhVm5fghCWdjSvM2PiQqcrn", "height": 2, "txs": 3813, "state ready": true}
+[08-27|18:07:01.694] INFO vm/resolutions.go:262 accepted block {"blkID": "2wjefo3Nfvk1zb7GDPLLXXwtpLhPhVm5fghCWdjSvM2PiQqcrn", "height": 2, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:07:01.702] INFO vm/resolutions.go:203 block processed {"blkID": "2wjefo3Nfvk1zb7GDPLLXXwtpLhPhVm5fghCWdjSvM2PiQqcrn", "height": 2}
+[08-27|18:07:01.966] INFO vm/vm.go:577 parsed block {"id": "2cjuPLobt1WFGBJFg6MqhoX6N8yJNSC6sfmgMGjZqahAYp6s3U", "height": 3}
+[08-27|18:07:01.966] INFO chain/block.go:464 verify context {"height": 3, "unit price": 1, "block cost": 0}
+[08-27|18:07:02.008] INFO vm/resolutions.go:116 verified block {"blkID": "2cjuPLobt1WFGBJFg6MqhoX6N8yJNSC6sfmgMGjZqahAYp6s3U", "height": 3, "txs": 2374, "state ready": true}
+[08-27|18:07:02.015] INFO vm/resolutions.go:262 accepted block {"blkID": "2cjuPLobt1WFGBJFg6MqhoX6N8yJNSC6sfmgMGjZqahAYp6s3U", "height": 3, "txs": 2374, "size": 527312, "units": 1120528, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:07:02.017] INFO vm/resolutions.go:203 block processed {"blkID": "2cjuPLobt1WFGBJFg6MqhoX6N8yJNSC6sfmgMGjZqahAYp6s3U", "height": 3}
+[08-27|18:11:58.087] INFO vm/vm.go:577 parsed block {"id": "2QKDy2iREvnSfEXfb6qZTiin8Xyv6LnRM9F1FaWAkFkBZdM2Kk", "height": 4}
+[08-27|18:11:58.090] INFO chain/block.go:464 verify context {"height": 4, "unit price": 1, "block cost": 0}
+[08-27|18:11:58.211] INFO vm/resolutions.go:116 verified block {"blkID": "2QKDy2iREvnSfEXfb6qZTiin8Xyv6LnRM9F1FaWAkFkBZdM2Kk", "height": 4, "txs": 3813, "state ready": true}
+[08-27|18:11:58.254] INFO vm/resolutions.go:262 accepted block {"blkID": "2QKDy2iREvnSfEXfb6qZTiin8Xyv6LnRM9F1FaWAkFkBZdM2Kk", "height": 4, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:11:58.260] INFO vm/vm.go:577 parsed block {"id": "2jt8dwqj7njTPfaeWBkRhJcNwigbnXzwAv279Lmfp6enUNYx5A", "height": 5}
+[08-27|18:11:58.261] INFO chain/block.go:464 verify context {"height": 5, "unit price": 1, "block cost": 0}
+[08-27|18:11:58.261] INFO vm/resolutions.go:203 block processed {"blkID": "2QKDy2iREvnSfEXfb6qZTiin8Xyv6LnRM9F1FaWAkFkBZdM2Kk", "height": 4}
+[08-27|18:11:58.360] INFO vm/resolutions.go:116 verified block {"blkID": "2jt8dwqj7njTPfaeWBkRhJcNwigbnXzwAv279Lmfp6enUNYx5A", "height": 5, "txs": 3813, "state ready": true}
+[08-27|18:11:58.391] INFO vm/resolutions.go:262 accepted block {"blkID": "2jt8dwqj7njTPfaeWBkRhJcNwigbnXzwAv279Lmfp6enUNYx5A", "height": 5, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:11:58.396] INFO vm/vm.go:577 parsed block {"id": "2soEVfMdf6HXPS17gNaL27ZmhVArUyLKm6h41ziD5fxU46i9r5", "height": 6}
+[08-27|18:11:58.397] INFO chain/block.go:464 verify context {"height": 6, "unit price": 1, "block cost": 0}
+[08-27|18:11:58.400] INFO vm/resolutions.go:203 block processed {"blkID": "2jt8dwqj7njTPfaeWBkRhJcNwigbnXzwAv279Lmfp6enUNYx5A", "height": 5}
+[08-27|18:11:58.554] INFO vm/resolutions.go:116 verified block {"blkID": "2soEVfMdf6HXPS17gNaL27ZmhVArUyLKm6h41ziD5fxU46i9r5", "height": 6, "txs": 3813, "state ready": true}
+[08-27|18:11:58.592] INFO vm/resolutions.go:262 accepted block {"blkID": "2soEVfMdf6HXPS17gNaL27ZmhVArUyLKm6h41ziD5fxU46i9r5", "height": 6, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:11:58.603] INFO vm/resolutions.go:203 block processed {"blkID": "2soEVfMdf6HXPS17gNaL27ZmhVArUyLKm6h41ziD5fxU46i9r5", "height": 6}
+[08-27|18:11:58.603] INFO vm/vm.go:577 parsed block {"id": "2pZZeRsp1ubH9r7RjogtVK6BwrHZ72iZm9awJkccH8qrwmPwMq", "height": 7}
+[08-27|18:11:58.604] INFO chain/block.go:464 verify context {"height": 7, "unit price": 1, "block cost": 0}
+[08-27|18:11:58.721] INFO vm/resolutions.go:116 verified block {"blkID": "2pZZeRsp1ubH9r7RjogtVK6BwrHZ72iZm9awJkccH8qrwmPwMq", "height": 7, "txs": 3813, "state ready": true}
+[08-27|18:11:58.759] INFO vm/resolutions.go:262 accepted block {"blkID": "2pZZeRsp1ubH9r7RjogtVK6BwrHZ72iZm9awJkccH8qrwmPwMq", "height": 7, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:11:58.768] INFO vm/vm.go:577 parsed block {"id": "TDnod3UJskz3rXL4qTiuj3aJZ2yy72uSZBzFfSc3M7EmQk795", "height": 8}
+[08-27|18:11:58.769] INFO vm/resolutions.go:203 block processed {"blkID": "2pZZeRsp1ubH9r7RjogtVK6BwrHZ72iZm9awJkccH8qrwmPwMq", "height": 7}
+[08-27|18:11:58.769] INFO chain/block.go:464 verify context {"height": 8, "unit price": 1, "block cost": 0}
+[08-27|18:11:58.890] INFO vm/resolutions.go:116 verified block {"blkID": "TDnod3UJskz3rXL4qTiuj3aJZ2yy72uSZBzFfSc3M7EmQk795", "height": 8, "txs": 3813, "state ready": true}
+[08-27|18:11:58.947] INFO vm/resolutions.go:262 accepted block {"blkID": "TDnod3UJskz3rXL4qTiuj3aJZ2yy72uSZBzFfSc3M7EmQk795", "height": 8, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:11:58.954] INFO vm/vm.go:577 parsed block {"id": "2M8XCQKsWuVMeLdX9yf6y1W28VmaUw6eXuvEk4RYmtamqNHEpw", "height": 9}
+[08-27|18:11:58.955] INFO chain/block.go:464 verify context {"height": 9, "unit price": 1, "block cost": 0}
+[08-27|18:11:58.956] INFO vm/resolutions.go:203 block processed {"blkID": "TDnod3UJskz3rXL4qTiuj3aJZ2yy72uSZBzFfSc3M7EmQk795", "height": 8}
+[08-27|18:11:59.049] INFO vm/resolutions.go:116 verified block {"blkID": "2M8XCQKsWuVMeLdX9yf6y1W28VmaUw6eXuvEk4RYmtamqNHEpw", "height": 9, "txs": 3813, "state ready": true}
+[08-27|18:11:59.077] INFO vm/resolutions.go:262 accepted block {"blkID": "2M8XCQKsWuVMeLdX9yf6y1W28VmaUw6eXuvEk4RYmtamqNHEpw", "height": 9, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:11:59.081] INFO vm/resolutions.go:203 block processed {"blkID": "2M8XCQKsWuVMeLdX9yf6y1W28VmaUw6eXuvEk4RYmtamqNHEpw", "height": 9}
+[08-27|18:11:59.082] INFO vm/vm.go:577 parsed block {"id": "jAnVN3VMARKQ2RY6mus9ig4pe1pcqf6s4KakR3ynP2tQaeKXQ", "height": 10}
+[08-27|18:11:59.083] INFO chain/block.go:464 verify context {"height": 10, "unit price": 1, "block cost": 0}
+[08-27|18:11:59.169] INFO vm/resolutions.go:116 verified block {"blkID": "jAnVN3VMARKQ2RY6mus9ig4pe1pcqf6s4KakR3ynP2tQaeKXQ", "height": 10, "txs": 3813, "state ready": true}
+[08-27|18:11:59.198] INFO vm/resolutions.go:262 accepted block {"blkID": "jAnVN3VMARKQ2RY6mus9ig4pe1pcqf6s4KakR3ynP2tQaeKXQ", "height": 10, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:11:59.204] INFO vm/vm.go:577 parsed block {"id": "2ggMnhT85y6X2smNEvWBPCccCntNi5GKdYFk8pvqi2pk49S94H", "height": 11}
+[08-27|18:11:59.204] INFO chain/block.go:464 verify context {"height": 11, "unit price": 1, "block cost": 0}
+[08-27|18:11:59.206] INFO vm/resolutions.go:203 block processed {"blkID": "jAnVN3VMARKQ2RY6mus9ig4pe1pcqf6s4KakR3ynP2tQaeKXQ", "height": 10}
+[08-27|18:11:59.302] INFO vm/resolutions.go:116 verified block {"blkID": "2ggMnhT85y6X2smNEvWBPCccCntNi5GKdYFk8pvqi2pk49S94H", "height": 11, "txs": 3813, "state ready": true}
+[08-27|18:11:59.340] INFO vm/resolutions.go:262 accepted block {"blkID": "2ggMnhT85y6X2smNEvWBPCccCntNi5GKdYFk8pvqi2pk49S94H", "height": 11, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:11:59.345] INFO vm/vm.go:577 parsed block {"id": "2WunBgpAGrs3rPoG1ZBeKDHh34o2nRtVhmxe9jjCPTVwGLYTsM", "height": 12}
+[08-27|18:11:59.346] INFO chain/block.go:464 verify context {"height": 12, "unit price": 1, "block cost": 0}
+[08-27|18:11:59.350] INFO vm/resolutions.go:203 block processed {"blkID": "2ggMnhT85y6X2smNEvWBPCccCntNi5GKdYFk8pvqi2pk49S94H", "height": 11}
+[08-27|18:11:59.459] INFO vm/resolutions.go:116 verified block {"blkID": "2WunBgpAGrs3rPoG1ZBeKDHh34o2nRtVhmxe9jjCPTVwGLYTsM", "height": 12, "txs": 3813, "state ready": true}
+[08-27|18:11:59.490] INFO vm/resolutions.go:262 accepted block {"blkID": "2WunBgpAGrs3rPoG1ZBeKDHh34o2nRtVhmxe9jjCPTVwGLYTsM", "height": 12, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:11:59.498] INFO vm/vm.go:577 parsed block {"id": "Bu1afs4WBjdxpUqegznTYobEKdBZJtFr8gjJM2ecnEYqcAudZ", "height": 13}
+[08-27|18:11:59.498] INFO chain/block.go:464 verify context {"height": 13, "unit price": 1, "block cost": 0}
+[08-27|18:11:59.514] INFO vm/resolutions.go:203 block processed {"blkID": "2WunBgpAGrs3rPoG1ZBeKDHh34o2nRtVhmxe9jjCPTVwGLYTsM", "height": 12}
+[08-27|18:11:59.635] INFO vm/resolutions.go:116 verified block {"blkID": "Bu1afs4WBjdxpUqegznTYobEKdBZJtFr8gjJM2ecnEYqcAudZ", "height": 13, "txs": 3813, "state ready": true}
+[08-27|18:11:59.667] INFO vm/resolutions.go:262 accepted block {"blkID": "Bu1afs4WBjdxpUqegznTYobEKdBZJtFr8gjJM2ecnEYqcAudZ", "height": 13, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:11:59.675] INFO vm/vm.go:577 parsed block {"id": "AgBAYuUFVbR2hY9Y4mVNpQjCM41SkJYZmFTPCZKbSAc3TJEfz", "height": 14}
+[08-27|18:11:59.676] INFO chain/block.go:464 verify context {"height": 14, "unit price": 1, "block cost": 0}
+[08-27|18:11:59.678] INFO vm/resolutions.go:203 block processed {"blkID": "Bu1afs4WBjdxpUqegznTYobEKdBZJtFr8gjJM2ecnEYqcAudZ", "height": 13}
+[08-27|18:11:59.779] INFO vm/resolutions.go:116 verified block {"blkID": "AgBAYuUFVbR2hY9Y4mVNpQjCM41SkJYZmFTPCZKbSAc3TJEfz", "height": 14, "txs": 3813, "state ready": true}
+[08-27|18:11:59.823] INFO vm/resolutions.go:262 accepted block {"blkID": "AgBAYuUFVbR2hY9Y4mVNpQjCM41SkJYZmFTPCZKbSAc3TJEfz", "height": 14, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:11:59.834] INFO vm/vm.go:577 parsed block {"id": "2rhLgJPodPwJVvvD5wLcnKFXPxiKMfVTSe6rQpBPRjS2BCJk9k", "height": 15}
+[08-27|18:11:59.835] INFO chain/block.go:464 verify context {"height": 15, "unit price": 1, "block cost": 0}
+[08-27|18:11:59.854] INFO vm/resolutions.go:203 block processed {"blkID": "AgBAYuUFVbR2hY9Y4mVNpQjCM41SkJYZmFTPCZKbSAc3TJEfz", "height": 14}
+[08-27|18:11:59.976] INFO vm/resolutions.go:116 verified block {"blkID": "2rhLgJPodPwJVvvD5wLcnKFXPxiKMfVTSe6rQpBPRjS2BCJk9k", "height": 15, "txs": 3813, "state ready": true}
+[08-27|18:12:00.009] INFO vm/resolutions.go:262 accepted block {"blkID": "2rhLgJPodPwJVvvD5wLcnKFXPxiKMfVTSe6rQpBPRjS2BCJk9k", "height": 15, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:12:00.017] INFO vm/vm.go:577 parsed block {"id": "MHCqmAiNnhJ73yqgf73zUS33nx8iULcxxqEnuZHYQy5qvmHk2", "height": 16}
+[08-27|18:12:00.017] INFO vm/resolutions.go:203 block processed {"blkID": "2rhLgJPodPwJVvvD5wLcnKFXPxiKMfVTSe6rQpBPRjS2BCJk9k", "height": 15}
+[08-27|18:12:00.017] INFO chain/block.go:464 verify context {"height": 16, "unit price": 1, "block cost": 0}
+[08-27|18:12:00.114] INFO vm/resolutions.go:116 verified block {"blkID": "MHCqmAiNnhJ73yqgf73zUS33nx8iULcxxqEnuZHYQy5qvmHk2", "height": 16, "txs": 3813, "state ready": true}
+[08-27|18:12:00.157] INFO vm/resolutions.go:262 accepted block {"blkID": "MHCqmAiNnhJ73yqgf73zUS33nx8iULcxxqEnuZHYQy5qvmHk2", "height": 16, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:12:00.173] INFO vm/resolutions.go:203 block processed {"blkID": "MHCqmAiNnhJ73yqgf73zUS33nx8iULcxxqEnuZHYQy5qvmHk2", "height": 16}
+[08-27|18:12:00.183] INFO vm/vm.go:577 parsed block {"id": "2rhVuw3dVZxhKUS6RxUytPXXcMz49YAiwTuvG9scUxB3FrKdee", "height": 17}
+[08-27|18:12:00.184] INFO chain/block.go:464 verify context {"height": 17, "unit price": 1, "block cost": 0}
+[08-27|18:12:00.288] INFO vm/resolutions.go:116 verified block {"blkID": "2rhVuw3dVZxhKUS6RxUytPXXcMz49YAiwTuvG9scUxB3FrKdee", "height": 17, "txs": 3813, "state ready": true}
+[08-27|18:12:00.344] INFO vm/resolutions.go:262 accepted block {"blkID": "2rhVuw3dVZxhKUS6RxUytPXXcMz49YAiwTuvG9scUxB3FrKdee", "height": 17, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:12:00.354] INFO vm/resolutions.go:203 block processed {"blkID": "2rhVuw3dVZxhKUS6RxUytPXXcMz49YAiwTuvG9scUxB3FrKdee", "height": 17}
+[08-27|18:12:00.360] INFO vm/vm.go:577 parsed block {"id": "pE6nNfGFWSFH76AFk7k5ne7ofwGjoPjV6F2MrcaiEh3YgSaj2", "height": 18}
+[08-27|18:12:00.362] INFO chain/block.go:464 verify context {"height": 18, "unit price": 1, "block cost": 0}
+[08-27|18:12:00.484] INFO vm/resolutions.go:116 verified block {"blkID": "pE6nNfGFWSFH76AFk7k5ne7ofwGjoPjV6F2MrcaiEh3YgSaj2", "height": 18, "txs": 3813, "state ready": true}
+[08-27|18:12:00.518] INFO vm/resolutions.go:262 accepted block {"blkID": "pE6nNfGFWSFH76AFk7k5ne7ofwGjoPjV6F2MrcaiEh3YgSaj2", "height": 18, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:12:00.528] INFO vm/resolutions.go:203 block processed {"blkID": "pE6nNfGFWSFH76AFk7k5ne7ofwGjoPjV6F2MrcaiEh3YgSaj2", "height": 18}
+[08-27|18:12:00.530] INFO vm/vm.go:577 parsed block {"id": "2U41Mk7t8GQCEK5AZyCBLanyufyNc2CZQ3RuRzbNLmNoXKKkEt", "height": 19}
+[08-27|18:12:00.531] INFO chain/block.go:464 verify context {"height": 19, "unit price": 1, "block cost": 0}
+[08-27|18:12:00.652] INFO vm/resolutions.go:116 verified block {"blkID": "2U41Mk7t8GQCEK5AZyCBLanyufyNc2CZQ3RuRzbNLmNoXKKkEt", "height": 19, "txs": 3813, "state ready": true}
+[08-27|18:12:00.679] INFO vm/resolutions.go:262 accepted block {"blkID": "2U41Mk7t8GQCEK5AZyCBLanyufyNc2CZQ3RuRzbNLmNoXKKkEt", "height": 19, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:12:00.686] INFO vm/resolutions.go:203 block processed {"blkID": "2U41Mk7t8GQCEK5AZyCBLanyufyNc2CZQ3RuRzbNLmNoXKKkEt", "height": 19}
+[08-27|18:12:00.689] INFO vm/vm.go:577 parsed block {"id": "AX7nzHvRdvuwz13wwFg6bQrh8xbqV835YaX3KbmDkSPMY2jZa", "height": 20}
+[08-27|18:12:00.691] INFO chain/block.go:464 verify context {"height": 20, "unit price": 1, "block cost": 0}
+[08-27|18:12:00.817] INFO vm/resolutions.go:116 verified block {"blkID": "AX7nzHvRdvuwz13wwFg6bQrh8xbqV835YaX3KbmDkSPMY2jZa", "height": 20, "txs": 3813, "state ready": true}
+[08-27|18:12:00.864] INFO vm/resolutions.go:262 accepted block {"blkID": "AX7nzHvRdvuwz13wwFg6bQrh8xbqV835YaX3KbmDkSPMY2jZa", "height": 20, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:12:00.875] INFO vm/vm.go:577 parsed block {"id": "41mxbbMeXNxeHLmbh389ZNQAbxNyXYzyBmmnnG4jiaP1VbKDH", "height": 21}
+[08-27|18:12:00.876] INFO chain/block.go:464 verify context {"height": 21, "unit price": 1, "block cost": 0}
+[08-27|18:12:00.876] INFO vm/resolutions.go:203 block processed {"blkID": "AX7nzHvRdvuwz13wwFg6bQrh8xbqV835YaX3KbmDkSPMY2jZa", "height": 20}
+[08-27|18:12:00.976] INFO vm/resolutions.go:116 verified block {"blkID": "41mxbbMeXNxeHLmbh389ZNQAbxNyXYzyBmmnnG4jiaP1VbKDH", "height": 21, "txs": 3813, "state ready": true}
+[08-27|18:12:01.014] INFO vm/resolutions.go:262 accepted block {"blkID": "41mxbbMeXNxeHLmbh389ZNQAbxNyXYzyBmmnnG4jiaP1VbKDH", "height": 21, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:12:01.019] INFO vm/resolutions.go:203 block processed {"blkID": "41mxbbMeXNxeHLmbh389ZNQAbxNyXYzyBmmnnG4jiaP1VbKDH", "height": 21}
+[08-27|18:12:01.020] INFO vm/vm.go:577 parsed block {"id": "8ioprNJjgEB4QTSoTb5UxHuZdZqzxG48HFrhB64744Zokxzje", "height": 22}
+[08-27|18:12:01.021] INFO chain/block.go:464 verify context {"height": 22, "unit price": 1, "block cost": 0}
+[08-27|18:12:01.109] INFO vm/resolutions.go:116 verified block {"blkID": "8ioprNJjgEB4QTSoTb5UxHuZdZqzxG48HFrhB64744Zokxzje", "height": 22, "txs": 3813, "state ready": true}
+[08-27|18:12:01.142] INFO vm/resolutions.go:262 accepted block {"blkID": "8ioprNJjgEB4QTSoTb5UxHuZdZqzxG48HFrhB64744Zokxzje", "height": 22, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:12:01.151] INFO vm/resolutions.go:203 block processed {"blkID": "8ioprNJjgEB4QTSoTb5UxHuZdZqzxG48HFrhB64744Zokxzje", "height": 22}
+[08-27|18:12:01.153] INFO vm/vm.go:577 parsed block {"id": "Hr8KtgNS9fxhV78xdhEan1yJprwiRv3AS1fJrc9BTrvC2tGCZ", "height": 23}
+[08-27|18:12:01.153] INFO chain/block.go:464 verify context {"height": 23, "unit price": 1, "block cost": 0}
+[08-27|18:12:01.243] INFO vm/resolutions.go:116 verified block {"blkID": "Hr8KtgNS9fxhV78xdhEan1yJprwiRv3AS1fJrc9BTrvC2tGCZ", "height": 23, "txs": 3813, "state ready": true}
+[08-27|18:12:01.277] INFO vm/resolutions.go:262 accepted block {"blkID": "Hr8KtgNS9fxhV78xdhEan1yJprwiRv3AS1fJrc9BTrvC2tGCZ", "height": 23, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:12:01.283] INFO vm/resolutions.go:203 block processed {"blkID": "Hr8KtgNS9fxhV78xdhEan1yJprwiRv3AS1fJrc9BTrvC2tGCZ", "height": 23}
+[08-27|18:12:01.286] INFO vm/vm.go:577 parsed block {"id": "2XNVtTkjJXaeoTrtbX6qX9v2DwxkZK7rKqySYHRpCsrrZrTBYM", "height": 24}
+[08-27|18:12:01.286] INFO chain/block.go:464 verify context {"height": 24, "unit price": 1, "block cost": 0}
+[08-27|18:12:01.380] INFO vm/resolutions.go:116 verified block {"blkID": "2XNVtTkjJXaeoTrtbX6qX9v2DwxkZK7rKqySYHRpCsrrZrTBYM", "height": 24, "txs": 3813, "state ready": true}
+[08-27|18:12:01.418] INFO vm/resolutions.go:262 accepted block {"blkID": "2XNVtTkjJXaeoTrtbX6qX9v2DwxkZK7rKqySYHRpCsrrZrTBYM", "height": 24, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:12:01.425] INFO vm/resolutions.go:203 block processed {"blkID": "2XNVtTkjJXaeoTrtbX6qX9v2DwxkZK7rKqySYHRpCsrrZrTBYM", "height": 24}
+[08-27|18:12:01.425] INFO vm/vm.go:577 parsed block {"id": "2C5fkZwZ9kbqqXrpDEELTykEWJKc6igKniHhJhJjH9r1qfCtPw", "height": 25}
+[08-27|18:12:01.426] INFO chain/block.go:464 verify context {"height": 25, "unit price": 1, "block cost": 0}
+[08-27|18:12:01.527] INFO vm/resolutions.go:116 verified block {"blkID": "2C5fkZwZ9kbqqXrpDEELTykEWJKc6igKniHhJhJjH9r1qfCtPw", "height": 25, "txs": 3813, "state ready": true}
+[08-27|18:12:01.570] INFO vm/resolutions.go:262 accepted block {"blkID": "2C5fkZwZ9kbqqXrpDEELTykEWJKc6igKniHhJhJjH9r1qfCtPw", "height": 25, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:12:01.579] INFO vm/resolutions.go:203 block processed {"blkID": "2C5fkZwZ9kbqqXrpDEELTykEWJKc6igKniHhJhJjH9r1qfCtPw", "height": 25}
+[08-27|18:12:01.581] INFO vm/vm.go:577 parsed block {"id": "2v5ouNcX7N8dQt2URS8Dw8ptFAbNJ1LAB9Mz9fowvMS1vzdp76", "height": 26}
+[08-27|18:12:01.582] INFO chain/block.go:464 verify context {"height": 26, "unit price": 1, "block cost": 0}
+[08-27|18:12:01.683] INFO vm/resolutions.go:116 verified block {"blkID": "2v5ouNcX7N8dQt2URS8Dw8ptFAbNJ1LAB9Mz9fowvMS1vzdp76", "height": 26, "txs": 3813, "state ready": true}
+[08-27|18:12:01.713] INFO vm/resolutions.go:262 accepted block {"blkID": "2v5ouNcX7N8dQt2URS8Dw8ptFAbNJ1LAB9Mz9fowvMS1vzdp76", "height": 26, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:12:01.726] INFO vm/vm.go:577 parsed block {"id": "2vQv9ngNDFt85beiRL7tr9tJM9UuxVxvodXLutKb4xhQ9LG12r", "height": 27}
+[08-27|18:12:01.727] INFO chain/block.go:464 verify context {"height": 27, "unit price": 1, "block cost": 0}
+[08-27|18:12:01.734] INFO vm/resolutions.go:203 block processed {"blkID": "2v5ouNcX7N8dQt2URS8Dw8ptFAbNJ1LAB9Mz9fowvMS1vzdp76", "height": 26}
+[08-27|18:12:01.904] INFO vm/resolutions.go:116 verified block {"blkID": "2vQv9ngNDFt85beiRL7tr9tJM9UuxVxvodXLutKb4xhQ9LG12r", "height": 27, "txs": 3813, "state ready": true}
+[08-27|18:12:01.943] INFO vm/resolutions.go:262 accepted block {"blkID": "2vQv9ngNDFt85beiRL7tr9tJM9UuxVxvodXLutKb4xhQ9LG12r", "height": 27, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:12:01.950] INFO vm/vm.go:577 parsed block {"id": "y2W5oBr5jmkod9mkwzymsor4guu1yaNPk91fWt1Lf6QywMTor", "height": 28}
+[08-27|18:12:01.951] INFO chain/block.go:464 verify context {"height": 28, "unit price": 1, "block cost": 0}
+[08-27|18:12:01.953] INFO vm/resolutions.go:203 block processed {"blkID": "2vQv9ngNDFt85beiRL7tr9tJM9UuxVxvodXLutKb4xhQ9LG12r", "height": 27}
+[08-27|18:12:02.101] INFO vm/resolutions.go:116 verified block {"blkID": "y2W5oBr5jmkod9mkwzymsor4guu1yaNPk91fWt1Lf6QywMTor", "height": 28, "txs": 3813, "state ready": true}
+[08-27|18:12:02.156] INFO vm/resolutions.go:262 accepted block {"blkID": "y2W5oBr5jmkod9mkwzymsor4guu1yaNPk91fWt1Lf6QywMTor", "height": 28, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:12:02.167] INFO vm/vm.go:577 parsed block {"id": "6CLHnqdywRnpjhyD8buL23omERyUXW14uSA5P3WUS3b4W1rqs", "height": 29}
+[08-27|18:12:02.167] INFO chain/block.go:464 verify context {"height": 29, "unit price": 1, "block cost": 0}
+[08-27|18:12:02.177] INFO vm/resolutions.go:203 block processed {"blkID": "y2W5oBr5jmkod9mkwzymsor4guu1yaNPk91fWt1Lf6QywMTor", "height": 28}
+[08-27|18:12:02.427] INFO vm/resolutions.go:116 verified block {"blkID": "6CLHnqdywRnpjhyD8buL23omERyUXW14uSA5P3WUS3b4W1rqs", "height": 29, "txs": 3813, "state ready": true}
+[08-27|18:12:02.562] INFO vm/resolutions.go:262 accepted block {"blkID": "6CLHnqdywRnpjhyD8buL23omERyUXW14uSA5P3WUS3b4W1rqs", "height": 29, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:12:02.600] INFO vm/vm.go:577 parsed block {"id": "2eABKpPUuZ3MTadvKxjb9y4iEctpUHaB9RRD96pjacUtR2kYyW", "height": 30}
+[08-27|18:12:02.600] INFO chain/block.go:464 verify context {"height": 30, "unit price": 1, "block cost": 0}
+[08-27|18:12:02.601] INFO vm/resolutions.go:203 block processed {"blkID": "6CLHnqdywRnpjhyD8buL23omERyUXW14uSA5P3WUS3b4W1rqs", "height": 29}
+[08-27|18:12:02.701] INFO vm/resolutions.go:116 verified block {"blkID": "2eABKpPUuZ3MTadvKxjb9y4iEctpUHaB9RRD96pjacUtR2kYyW", "height": 30, "txs": 3813, "state ready": true}
+[08-27|18:12:02.734] INFO vm/resolutions.go:262 accepted block {"blkID": "2eABKpPUuZ3MTadvKxjb9y4iEctpUHaB9RRD96pjacUtR2kYyW", "height": 30, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:12:02.740] INFO vm/vm.go:577 parsed block {"id": "bPzay4S6W2w7ivNM2DXJBmSEWJrWVyb4ouFcrqP8Vzh4YeWzJ", "height": 31}
+[08-27|18:12:02.741] INFO vm/resolutions.go:203 block processed {"blkID": "2eABKpPUuZ3MTadvKxjb9y4iEctpUHaB9RRD96pjacUtR2kYyW", "height": 30}
+[08-27|18:12:02.741] INFO chain/block.go:464 verify context {"height": 31, "unit price": 1, "block cost": 0}
+[08-27|18:12:02.870] INFO vm/resolutions.go:116 verified block {"blkID": "bPzay4S6W2w7ivNM2DXJBmSEWJrWVyb4ouFcrqP8Vzh4YeWzJ", "height": 31, "txs": 3813, "state ready": true}
+[08-27|18:12:02.900] INFO vm/resolutions.go:262 accepted block {"blkID": "bPzay4S6W2w7ivNM2DXJBmSEWJrWVyb4ouFcrqP8Vzh4YeWzJ", "height": 31, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:12:02.919] INFO vm/resolutions.go:203 block processed {"blkID": "bPzay4S6W2w7ivNM2DXJBmSEWJrWVyb4ouFcrqP8Vzh4YeWzJ", "height": 31}
+[08-27|18:12:02.934] INFO vm/vm.go:577 parsed block {"id": "2BbkHroeNUjWz1KktQFBMWRZPKyuYTDLPkowZtMQaeCCxRJheN", "height": 32}
+[08-27|18:12:02.935] INFO chain/block.go:464 verify context {"height": 32, "unit price": 1, "block cost": 0}
+[08-27|18:12:03.080] INFO vm/resolutions.go:116 verified block {"blkID": "2BbkHroeNUjWz1KktQFBMWRZPKyuYTDLPkowZtMQaeCCxRJheN", "height": 32, "txs": 3813, "state ready": true}
+[08-27|18:12:03.114] INFO vm/resolutions.go:262 accepted block {"blkID": "2BbkHroeNUjWz1KktQFBMWRZPKyuYTDLPkowZtMQaeCCxRJheN", "height": 32, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:12:03.127] INFO vm/resolutions.go:203 block processed {"blkID": "2BbkHroeNUjWz1KktQFBMWRZPKyuYTDLPkowZtMQaeCCxRJheN", "height": 32}
+[08-27|18:12:03.128] INFO vm/vm.go:577 parsed block {"id": "PMFnwrFCR2sod7UwCpVpGCnWAeHJwmpi2f9qocoQvHHAbyb5d", "height": 33}
+[08-27|18:12:03.128] INFO chain/block.go:464 verify context {"height": 33, "unit price": 1, "block cost": 0}
+[08-27|18:12:03.232] INFO vm/resolutions.go:116 verified block {"blkID": "PMFnwrFCR2sod7UwCpVpGCnWAeHJwmpi2f9qocoQvHHAbyb5d", "height": 33, "txs": 3813, "state ready": true}
+[08-27|18:12:03.272] INFO vm/resolutions.go:262 accepted block {"blkID": "PMFnwrFCR2sod7UwCpVpGCnWAeHJwmpi2f9qocoQvHHAbyb5d", "height": 33, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:12:03.289] INFO vm/resolutions.go:203 block processed {"blkID": "PMFnwrFCR2sod7UwCpVpGCnWAeHJwmpi2f9qocoQvHHAbyb5d", "height": 33}
+[08-27|18:12:03.293] INFO vm/vm.go:577 parsed block {"id": "2WaCGuTWAFUhi7TiWoPivCvNrD3Z1F2oQq5GPCgPCVgbnYHiLj", "height": 34}
+[08-27|18:12:03.293] INFO chain/block.go:464 verify context {"height": 34, "unit price": 1, "block cost": 0}
+[08-27|18:12:03.509] INFO vm/resolutions.go:116 verified block {"blkID": "2WaCGuTWAFUhi7TiWoPivCvNrD3Z1F2oQq5GPCgPCVgbnYHiLj", "height": 34, "txs": 3813, "state ready": true}
+[08-27|18:12:03.553] INFO vm/resolutions.go:262 accepted block {"blkID": "2WaCGuTWAFUhi7TiWoPivCvNrD3Z1F2oQq5GPCgPCVgbnYHiLj", "height": 34, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:12:03.602] INFO vm/resolutions.go:203 block processed {"blkID": "2WaCGuTWAFUhi7TiWoPivCvNrD3Z1F2oQq5GPCgPCVgbnYHiLj", "height": 34}
+[08-27|18:12:03.608] INFO vm/vm.go:577 parsed block {"id": "pN7kBv3cB2CK544ZVrPhrEBydVtXtWMDw5b1GBP9945zgPvQs", "height": 35}
+[08-27|18:12:03.609] INFO chain/block.go:464 verify context {"height": 35, "unit price": 1, "block cost": 0}
+[08-27|18:12:03.808] INFO vm/resolutions.go:116 verified block {"blkID": "pN7kBv3cB2CK544ZVrPhrEBydVtXtWMDw5b1GBP9945zgPvQs", "height": 35, "txs": 3813, "state ready": true}
+[08-27|18:12:03.855] INFO vm/resolutions.go:262 accepted block {"blkID": "pN7kBv3cB2CK544ZVrPhrEBydVtXtWMDw5b1GBP9945zgPvQs", "height": 35, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:12:03.861] INFO vm/vm.go:577 parsed block {"id": "QTodwPnmPE11rM3uv9SXSG5YoewmKeeerRr7JSsXLeu6Tj3YW", "height": 36}
+[08-27|18:12:03.862] INFO chain/block.go:464 verify context {"height": 36, "unit price": 1, "block cost": 0}
+[08-27|18:12:03.862] INFO vm/resolutions.go:203 block processed {"blkID": "pN7kBv3cB2CK544ZVrPhrEBydVtXtWMDw5b1GBP9945zgPvQs", "height": 35}
+[08-27|18:12:04.443] INFO vm/resolutions.go:116 verified block {"blkID": "QTodwPnmPE11rM3uv9SXSG5YoewmKeeerRr7JSsXLeu6Tj3YW", "height": 36, "txs": 3813, "state ready": true}
+[08-27|18:12:05.449] INFO vm/resolutions.go:262 accepted block {"blkID": "QTodwPnmPE11rM3uv9SXSG5YoewmKeeerRr7JSsXLeu6Tj3YW", "height": 36, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:12:05.514] INFO vm/resolutions.go:203 block processed {"blkID": "QTodwPnmPE11rM3uv9SXSG5YoewmKeeerRr7JSsXLeu6Tj3YW", "height": 36}
+[08-27|18:12:05.755] INFO vm/vm.go:577 parsed block {"id": "2J4uuyvyZcUdwt6Lme8nYv1kzYXVY2qrE2vfhjKbUoUka8N113", "height": 37}
+[08-27|18:12:05.781] INFO chain/block.go:464 verify context {"height": 37, "unit price": 1, "block cost": 0}
+[08-27|18:12:10.407] INFO vm/resolutions.go:116 verified block {"blkID": "2J4uuyvyZcUdwt6Lme8nYv1kzYXVY2qrE2vfhjKbUoUka8N113", "height": 37, "txs": 3813, "state ready": true}
+[08-27|18:12:11.508] INFO vm/resolutions.go:262 accepted block {"blkID": "2J4uuyvyZcUdwt6Lme8nYv1kzYXVY2qrE2vfhjKbUoUka8N113", "height": 37, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:12:11.519] INFO vm/resolutions.go:203 block processed {"blkID": "2J4uuyvyZcUdwt6Lme8nYv1kzYXVY2qrE2vfhjKbUoUka8N113", "height": 37}
+[08-27|18:12:32.696] INFO vm/vm.go:577 parsed block {"id": "dC9qVcGHZvcuEbPcCxDYLPALzm3PAmz7XZSwhzSMx3jYZSE4", "height": 38}
+[08-27|18:12:32.698] INFO chain/block.go:464 verify context {"height": 38, "unit price": 1, "block cost": 0}
+[08-27|18:12:40.655] INFO vm/resolutions.go:116 verified block {"blkID": "dC9qVcGHZvcuEbPcCxDYLPALzm3PAmz7XZSwhzSMx3jYZSE4", "height": 38, "txs": 3813, "state ready": true}
+[08-27|18:12:47.378] INFO vm/resolutions.go:262 accepted block {"blkID": "dC9qVcGHZvcuEbPcCxDYLPALzm3PAmz7XZSwhzSMx3jYZSE4", "height": 38, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:12:53.868] INFO vm/resolutions.go:203 block processed {"blkID": "dC9qVcGHZvcuEbPcCxDYLPALzm3PAmz7XZSwhzSMx3jYZSE4", "height": 38}
+[08-27|18:13:02.455] INFO vm/vm.go:577 parsed block {"id": "fmPfy65gV2hLfitgsQkW4Eo7tKf8psXCYuB9ME5zce1kjAE74", "height": 39}
+[08-27|18:13:02.458] INFO chain/block.go:464 verify context {"height": 39, "unit price": 1, "block cost": 0}
+[08-27|18:13:54.781] INFO vm/resolutions.go:116 verified block {"blkID": "fmPfy65gV2hLfitgsQkW4Eo7tKf8psXCYuB9ME5zce1kjAE74", "height": 39, "txs": 3813, "state ready": true}
+[08-27|18:14:07.186] INFO vm/resolutions.go:262 accepted block {"blkID": "fmPfy65gV2hLfitgsQkW4Eo7tKf8psXCYuB9ME5zce1kjAE74", "height": 39, "txs": 3813, "size": 846770, "units": 1799736, "dropped mempool txs": 0, "state ready": true}
+[08-27|18:14:08.773] INFO vm/resolutions.go:203 block processed {"blkID": "fmPfy65gV2hLfitgsQkW4Eo7tKf8psXCYuB9ME5zce1kjAE74", "height": 39}
+[08-27|18:14:09.414] INFO vm/vm.go:577 parsed block {"id": "AosjnzyZjH9eZjQKLK2qJT284XbjNEB9Frzp95H4hG33av46w", "height": 40}
+[08-27|18:14:14.936] INFO chain/block.go:464 verify context {"height": 40, "unit price": 1, "block cost": 0}

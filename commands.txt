@@ -1,0 +1,23 @@
+Make sure Go is on your path, defined on your terminal, if not you can do so by running export 
+
+PATH=$PATH:$(go env GOPATH)/bin
+
+If this path doesn’t work, you can also try export PATH=$PATH:/usr/local/go/bin
+
+Run
+ MODE="run-single" ./scripts/run.sh
+
+Run
+ ./scripts/build.sh
+
+If you get a permissions denied error, try running these scripts with the bash command (i.e.bash ./scripts/run.sh)
+
+Load the demo private key included on the project
+ ./build/token-cli key import demo.pk 
+ 
+ and 
+ ./build/token-cli chain import-anr
+ 
+Interact with your own HyperChain!
+Use the demos included in the README file or located at the repo in step 1
+To close your Local Avalanche Network run killall avalanche-network-runner
